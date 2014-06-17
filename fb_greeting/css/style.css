@@ -1,0 +1,104 @@
+.pageSocialDemo {
+  font-family: verdana;
+  font-size: 100%;
+}
+.pageSocialDemo p {
+  margin: 20px 0 20px 0;
+}
+.pageSocialDemo .nav {
+  margin: 20px 0 20px 0;
+}
+.pageSocialDemo .api {
+  background: #f5f5f5;
+  color: #666;
+  padding: 10px;
+}
+
+.pageMe .userProfile {
+  margin: 20px 0 20px 0;
+}
+.pageMe .userProfile .img-thumbnail {
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+
+.pageFriends .friendList .friend {
+  border: 1px solid #666;
+  float: left;
+  width: 200px;
+  height: 70px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+.pageFriends .friendList .friend img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.pageFriends .friendList .friend .name {
+  color: #999;
+  width: 118px;
+  height: 20px;
+  margin: 15px 0 0 0;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  float: left;
+}
+
+.pageInvite h4 {
+  margin: 0 0 20px 0;
+}
+.pageInvite .appFriendsList .item {
+  border: 1px solid #666;
+  float: left;
+  width: 220px;
+  height: 70px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+.pageInvite .appFriendsList .item img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.pageInvite .appFriendsList .item .name {
+  color: #999;
+  width: 138px;
+  height: 20px;
+  margin: 0;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  float: left;
+}
+.pageInvite .appFriendsList .item .uid {
+  color: #999;
+  width: 138px;
+  height: 20px;
+  margin: 5px 0 0 0;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  float: left;
+}
+
+.pageFeed .feedItem img {
+  display: block;
+}
+.pageFeed .feedItem .info {
+  margin: 20px 0 0 0;
+  line-height: 24px;
+}
+.pageFeed .feedItem .info .description, .pageFeed .feedItem .info .message {
+  margin: 10px 0;
+}
+.pageFeed hr {
+  border-top: 1px solid #666;
+  margin: 20px 0;
+}

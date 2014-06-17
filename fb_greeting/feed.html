@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feed | Social Demo - Facebook</title>
+<meta name="description" content="A sample application that demonstrates how to use the Facebook JavaScript SDK and the Graph API.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset-font-min.css">
+<link rel="stylesheet" href="css/clearfix.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+<div id="pageFeed" class="pageSocialDemo pageFeed">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="me.html">Me</a></li>
+					<li class="active"><a href="feed.html">Feed</a></li>
+					<li><a href="friends.html">Friends</a></li>
+					<li><a href="post.html">Post</a></li>
+					<li><a href="invite.html">Invite</a></li>
+					<li><a href="checks.html">Checks</a></li>
+					<li><a href="comments.html">Comments</a></li>
+					<li><a href="revoke.html">Revoke Permissions</a></li>
+					<li><a href="privacy.html">Privacy</a></li>
+					<li class="dropdown pull-right">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle login">Login</a>
+					</li>
+				</ul>
+				<p class="api">
+					FB.api("/me/feed");
+				</p>
+				<!--
+				<p>
+					<a href="me.html">Back to My Profile</a>
+				</p>
+				-->
+				<p class="message"></p>
+				<p>
+					<ul class="feedList"></ul>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/initPageFeed.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Me | Social Demo - Facebook</title>
+<meta name="description" content="A sample application that demonstrates how to use the Facebook JavaScript SDK and the Graph API.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset-font-min.css">
+<link rel="stylesheet" href="css/clearfix.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+<div id="pageMe" class="pageSocialDemo pageMe">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="me.html">Me</a></li>
+					<li><a href="feed.html">Feed</a></li>
+					<li><a href="friends.html">Friends</a></li>
+					<li><a href="post.html">Post</a></li>
+					<li><a href="invite.html">Invite</a></li>
+					<li><a href="checks.html">Checks</a></li>
+					<li><a href="comments.html">Comments</a></li>
+					<li><a href="revoke.html">Revoke Permissions</a></li>
+					<li><a href="privacy.html">Privacy</a></li>
+					<li class="dropdown pull-right">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle login">Login</a>
+					</li>
+				</ul>
+				<p class="api">
+					FB.api("/me");
+				</p>
+				<div class="userProfileBlock">
+					<img title="" alt="140x140" src="http://goo.gl/o5a3Ra" class="img-thumbnail">
+					<table class="userProfile table">
+						<thead>
+							<tr>
+								<th>Field</th>
+								<th>Content</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Name</td>
+								<td class="name"></td>
+							</tr>
+							<tr class="active">
+								<td>First Name</td>
+								<td class="firstName"></td>
+							</tr>
+							<tr class="success">
+								<td>Last Name</td>
+								<td class="lastName"></td>
+							</tr>
+							<tr class="warning">
+								<td>Gender</td>
+								<td class="gender"></td>
+							</tr>
+							<tr class="danger">
+								<td>ID</td>
+								<td class="id"></td>
+							</tr>
+							<tr>
+								<td>Link</td>
+								<td class="link"></td>
+							</tr>
+							<tr class="active">
+								<td>Birthday</td>
+								<td class="birthday"></td>
+							</tr>
+							<tr class="success">
+								<td>Email</td>
+								<td class="email"></td>
+							</tr>
+							<tr class="warning">
+								<td>Website</td>
+								<td class="website"></td>
+							</tr>
+							<tr class="danger">
+								<td>Location</td>
+								<td class="location"></td>
+							</tr>
+						</tbody>
+					</table>
+					<!--
+					<div class="more">
+						<a href="feed.html">Feed</a>
+					</div>
+					-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/initPageMe.js"></script>
+</body>
+</html>

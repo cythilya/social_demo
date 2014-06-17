@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Post | Social Demo - Facebook</title>
+<meta name="description" content="A sample application that demonstrates how to use the Facebook JavaScript SDK and the Graph API.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset-font-min.css">
+<link rel="stylesheet" href="css/clearfix.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+<div id="pagePost" class="pageSocialDemo pagePost">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="me.html">Me</a></li>
+					<li><a href="feed.html">Feed</a></li>
+					<li><a href="friends.html">Friends</a></li>
+					<li class="active"><a href="post.html">Post</a></li>
+					<li><a href="invite.html">Invite</a></li>
+					<li><a href="checks.html">Checks</a></li>
+					<li><a href="comments.html">Comments</a></li>
+					<li><a href="revoke.html">Revoke Permissions</a></li>
+					<li><a href="privacy.html">Privacy</a></li>
+					<li class="dropdown pull-right">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle login">Login</a>
+					</li>
+				</ul>
+				<p class="api">
+					FB.api("/me/feed", "post", data);
+				</p>
+				<p>If you granded the publish_actions permission to the application, you can post a message to your feed.</p>
+				<div class="form-post">
+					<form class="form-horizontal">
+						<fieldset>
+							<div class="form-group">
+								<label for="name" class="name col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+								  <input type="text" id="name" class="form-control" value="Social Demo">
+								</div>
+							</div>	
+							<div class="form-group">
+								<label for="caption" class="col-sm-2 control-label">Caption</label>
+								<div class="col-sm-10">
+								  <input type="text" id="caption" class="form-control" value="BBC One - Sherlock, Series 1">
+								</div>
+							</div>					
+							<div class="form-group">
+								<label for="link" class="col-sm-2 control-label">Link</label>
+								<div class="col-sm-10">
+								  <input type="text" id="link" class="form-control" value="http://www.bbc.co.uk/programmes/b00t4pgh">
+								</div>
+							</div>	
+							<div class="form-group">
+								<label for="picture" class="col-sm-2 control-label">Picture</label>
+								<div class="col-sm-10">
+								  <input type="text" id="picture" class="form-control" value="http://goo.gl/RNpxEN">
+								</div>
+							</div>	
+							<div class="form-group">
+								<label for="description" class="col-sm-2 control-label">Description</label>
+								<div class="col-sm-10">
+								  <input type="text" id="description" class="form-control" value="Sherlock Holmes and Dr John Watson's adventures in 21st Century London. A thrilling, funny, fast-paced contemporary reimagining of the Arthur Conan Doyle classic. Made by Hartswood Films.">
+								</div>
+							</div>	
+							<div class="form-group">
+								<label for=""class="col-sm-2 control-label"></label>
+								<div class="col-sm-10">
+								  <button type="button" class="btn post">Post</button>
+								</div>
+							</div>	
+							<div class="form-group">
+								<label for=""class="col-sm-2 control-label">Post UI</label>
+								<div class="col-sm-10">
+								  <button type="button " class="btn postui">Post UI</button>
+								</div>
+							</div>								
+ 						</fieldset>
+					</form>				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/initPagePost.js"></script>
+</body>
+</html>

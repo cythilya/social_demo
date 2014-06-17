@@ -1,0 +1,109 @@
+.melody .nav {
+  margin: 20px 0 20px 0;
+}
+.melody .nav #signinButton {
+  display: none;
+}
+.melody .nav .dropdown-toggle.login {
+  display: none;
+}
+.melody .nav .dropdown-toggle.login .user-name {
+  display: block;
+  float: left;
+  margin: 5px 0 0 5px;
+  width: 100px;
+  height: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.melody .nav .dropdown-toggle.login .user-thumbnail {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.melody .nav .dropdown-toggle.login .caret {
+  display: block;
+  float: left;
+  margin: 15px 0 0 0;
+}
+.melody .section .thumbnail {
+  padding-top: 25px;
+}
+.melody .section img {
+  display: block;
+}
+.melody .section .caption {
+  padding-left: 25px;
+}
+.melody .section .caption .btn {
+  padding: 0;
+}
+.melody .footer {
+  list-style: none;
+  margin: 50px auto 0 auto;
+  padding: 0;
+  width: 460px;
+}
+.melody .footer li {
+  border-right: 1px solid #999;
+  float: left;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.melody .footer li a.disabled {
+  color: #999;
+  text-decoration: none;
+}
+.melody .footer li:last-child {
+  border-right: none;
+}
+.melody.pageMe .my-thumbnail {
+  background: #999;
+  width: 140px;
+  height: 140px;
+}
+.melody.pageMe .my-thumbnail img.me {
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+.melody.pageFriends .media {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 200px;
+  height: 84px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: 1px solid #999;
+  padding: 10px;
+}
+.melody.pageFriends .media img {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.melody.pageFriends .media .media-heading {
+  height: 21px;
+  overflow: hidden;
+}
+.melody.pageFriends .media .id {
+  height: 21px;
+  overflow: hidden;
+}
+.melody.pageFriends .media .location {
+  height: 21px;
+  overflow: hidden;
+}
+.melody.pageFriends .pagination {
+  display: block;
+  width: 110px;
+  margin: 50px auto 0 auto;
+}
+.melody.pageFeeds .pagination {
+  display: block;
+  width: 110px;
+  margin: 50px auto 0 auto;
+}

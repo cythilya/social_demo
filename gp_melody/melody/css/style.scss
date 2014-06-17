@@ -1,0 +1,126 @@
+﻿.melody {
+	.nav {
+		margin: 20px 0 20px 0;
+		
+		#signinButton {
+			display: none;
+		}
+		
+		.dropdown-toggle.login {
+			display: none;
+
+			.user-name {
+				display: block;
+				float: left;
+				margin: 5px 0 0 5px;
+				width: 100px;
+				height: 20px;
+				overflow: hidden;
+				word-wrap: break-word;
+				word-break: break-all;
+			}
+		
+			.user-thumbnail {
+				display: block;
+				float: left;
+				width: 30px;
+				height: 30px;
+			}
+			
+			.caret {
+				display: block;
+				float: left;
+				margin: 15px 0 0 0;
+			}
+		}
+	}
+
+	.section {
+		.thumbnail {
+			padding-top: 25px;			
+		}
+		img {
+			display: block;
+		}
+		.caption {
+			padding-left: 25px;
+			
+			.btn {
+				padding: 0;
+			}
+		}
+	}	
+
+	.footer {
+		list-style: none;
+		margin: 50px auto 0 auto;
+		padding: 0;
+		width: 460px;
+		
+		li {
+			border-right: 1px solid #999;
+			float: left;
+			margin-right: 20px;
+			padding-right: 20px;
+			
+			a.disabled {
+				color: #999;
+				text-decoration: none;
+			}
+		}
+		
+		li:last-child {
+			border-right: none;
+		}
+	}
+	
+	&.pageMe {
+		.my-thumbnail {
+			background: #999;
+			width: 140px;
+			height: 140px;
+				
+			img.me {
+				display: block;
+				width: 140px;
+				height: 140px;
+			}
+		}
+	}
+	
+	&.pageFriends {
+		.media {
+			float: left;
+			margin: 0 20px 0 0;
+			width: 200px;
+			height: 84px;
+			overflow: hidden;
+			word-wrap: break-word;
+			word-break: break-all;
+			border: 1px solid #999;
+			padding: 10px;
+
+			img {
+				display: block;
+				width: 64px;
+				height: 64px;			
+			}
+			.media-heading {height: 21px;overflow: hidden;}
+			.id {height: 21px;overflow: hidden;}
+			.location {height: 21px;overflow: hidden;}
+		}
+		.pagination {
+			display: block;
+			width: 110px;
+			margin: 50px auto 0 auto;
+		}
+	}
+	
+	&.pageFeeds {
+		.pagination {
+			display: block;
+			width: 110px;
+			margin: 50px auto 0 auto;
+		}
+	}
+}
